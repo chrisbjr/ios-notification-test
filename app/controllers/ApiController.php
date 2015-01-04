@@ -18,7 +18,7 @@ class ApiController extends Controller
                 'token'  => $token
             ];
 
-            return Response::json($token);
+            return Response::json($data);
         }
 
         return Response::json(['status' => 'error']);
