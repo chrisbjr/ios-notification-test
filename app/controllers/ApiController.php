@@ -30,7 +30,7 @@ class ApiController extends Controller
             // Then declare an adapter.
             $apnsAdapter = new Apns(array(
                 'certificate' => storage_path('ssl/pushcert.pem'),
-                //'passPhrase' => '1234',
+                'passPhrase' => 'crimson',
             ));
 
             // Set the device(s) to push the notification to.
