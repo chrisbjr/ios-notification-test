@@ -34,11 +34,11 @@ class ApiController extends Controller
 
             // Set the device(s) to push the notification to.
             $devices = new DeviceCollection(array(
-                new AppleDevice($device->token),
+                new AppleDevice($token),
             ));
 
             // Then, create the push skel.
-            $message = new Message('Hello Rhenz');
+            $message = new Message('Hello Coreproc');
 
             // Finally, create and add the push to the manager, and push it!
             $push = new Push($apnsAdapter, $devices, $message);
