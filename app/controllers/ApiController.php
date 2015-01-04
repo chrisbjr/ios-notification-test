@@ -4,7 +4,7 @@
 class ApiController extends Controller
 {
 
-    public function tokens()
+    public function devices()
     {
         $token = Input::get('token');
 
@@ -12,14 +12,16 @@ class ApiController extends Controller
             $device = new Device;
             $device->token = $token;
             $device->save();
+
+            $data = [
+                'status' => 'ok',
+                'token'  => $token
+            ];
+
+            return Response::json($token);
         }
 
-        $data = [
-            'status' => 'ok',
-            'token'  => $token
-        ];
-
-        return Response::json($token);
+        return Response::json(['status' => 'error']);
     }
 
 }
