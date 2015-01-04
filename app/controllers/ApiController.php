@@ -30,6 +30,7 @@ class ApiController extends Controller
             // Then declare an adapter.
             $apnsAdapter = new Apns(array(
                 'certificate' => storage_path('ssl/ck.pem'),
+                'passPhrase' => '1234',
             ));
 
             // Set the device(s) to push the notification to.
@@ -38,7 +39,7 @@ class ApiController extends Controller
             ));
 
             // Then, create the push skel.
-            $message = new Message('Hello Coreproc');
+            $message = new Message('Nice one Rhenz! :)');
 
             // Finally, create and add the push to the manager, and push it!
             $push = new Push($apnsAdapter, $devices, $message);

@@ -27,8 +27,8 @@
       <file leaf-file-name="ApiController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/ApiController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72602737" vertical-offset="270" max-vertical-offset="1940">
-              <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.49315068" vertical-offset="460" max-vertical-offset="1960">
+              <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -325,10 +325,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sly/notification-pusher/src/Sly/NotificationPusher/PushManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3328767" vertical-offset="957" max-vertical-offset="2080">
+          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+          <folding>
+            <marker date="1420369466000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420369466000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420369466000" expanded="true" signature="-1:-1" placeholder=" PushManager. ..." />
+            <marker date="1420369466000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420369466000" expanded="true" signature="-1:-1" placeholder=" @var string ..." />
+            <marker date="1420369466000" expanded="true" signature="-1:-1" placeholder=" Constructor. ..." />
+            <marker date="1420369466000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420369466000" expanded="true" signature="-1:-1" placeholder=" Get environment. ..." />
+            <marker date="1420369466000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420369466000" expanded="true" signature="-1:-1" placeholder=" Push. ..." />
+            <marker date="1420369466000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420369466000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420369466000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420369466000" expanded="true" signature="-1:-1" placeholder=" Get feedback. ..." />
+            <marker date="1420369466000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1420369466000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1420369466000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/ApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72602737" vertical-offset="270" max-vertical-offset="1940">
-          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.49315068" vertical-offset="460" max-vertical-offset="1960">
+          <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
           <folding />
         </state>
       </provider>
