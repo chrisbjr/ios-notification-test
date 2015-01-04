@@ -25,7 +25,7 @@ class ApiController extends Controller
             ];
 
             // send the apn
-            $pushManager = new PushManager(PushManager::ENVIRONMENT_DEV);
+            $pushManager = new PushManager(PushManager::ENVIRONMENT_PROD);
 
             // Then declare an adapter.
             $apnsAdapter = new Apns(array(
