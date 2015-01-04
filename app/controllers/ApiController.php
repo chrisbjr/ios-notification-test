@@ -15,9 +15,9 @@ class ApiController extends Controller
         $token = Input::get('token');
 
         if ( ! empty($token)) {
-            $device = new Device;
-            $device->token = $token;
-            $device->save();
+//            $device = new Device;
+//            $device->token = $token;
+//            $device->save();
 
             $data = [
                 'status' => 'ok',
@@ -25,12 +25,12 @@ class ApiController extends Controller
             ];
 
             // send the apn
-            $pushManager = new PushManager(PushManager::ENVIRONMENT_PROD);
+            $pushManager = new PushManager(PushManager::ENVIRONMENT_DEV);
 
             // Then declare an adapter.
             $apnsAdapter = new Apns(array(
                 'certificate' => storage_path('ssl/pushcert.pem'),
-                'passPhrase' => 'crimson',
+                'passPhrase' => '1234',
             ));
 
             // Set the device(s) to push the notification to.
