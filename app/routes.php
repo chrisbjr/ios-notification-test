@@ -13,3 +13,4 @@
 
 Route::get('/', 'HomeController@showWelcome');
 Route::get('devices', 'ApiController@devices');
+//Route::get('device/{id}', 'ApiController@sendMessage');
